@@ -1,0 +1,197 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    align-items: center;
+    margin: 15px;
+    justify-content: center;
+    box-shadow: 5px 5px 10px #916ad8;
+    display: flex;
+    text-align: center;
+    border: 2px solid black ;
+    border-radius: 15px;
+    
+
+   
+  }
+  
+  header h2 {
+    margin-right: 250px;
+    color: whitesmoke;
+    background: #7743DB;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: Arial;
+    box-shadow: 5px 5px 5px black;
+  
+  }
+  
+  header div{
+    margin-left: 38px ;
+    margin-right: 40px ;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: whitesmoke;
+   
+    
+  }
+  
+  .signin {
+    margin-left: 250px;
+    font-weight: bold;
+    font: 1.3em monospace;
+    border: 2px solid black;
+    border-radius:10px;
+    padding: 10px;
+    color: black;
+    box-shadow: 5px 5px 5px #7743DB;
+    background:whitesmoke
+  
+  }
+  .signin:hover{
+    background: #7743Db;
+    color: white;
+  }
+  
+  main {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .main-start {
+    color:whitesmoke;
+    margin: 10px;
+    font-family: Arials;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .main-mid {
+    margin: 10px;
+    font-family: Arials;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: whitesmoke;
+  
+  }
+  
+  .main-line {
+    margin: 25px;
+    font-family:'Times New Roman';
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: whitesmoke;
+  }
+  
+  main div img {
+    margin: 0;
+    max-width: 35%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15%;
+  }
+  
+  .signup-btn {
+    font-family:Arial;
+    margin: 10px;
+    display: inline-block;
+    color: whitesmoke;
+    background-color: #7743DB;
+    border-radius: 10px;
+    font-size:1.5em;
+    padding: 15px;
+    box-shadow: 10px 5px 10px black;
+  }
+  
+  section{
+    margin: 25px;
+  }
+  
+  .main-cont {
+    font-family: 'Times New Roman';
+    font-size: 1.5em;
+    border: 2px solid black;
+    text-align: justify;
+    width: 80%;
+    background: rgb(#F3CCFF,#D09CFA,#A555EC);
+    background: linear-gradient(#F3CCFF,#D09CFA,#A555EC);
+    color: black;
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px 10px black;
+    margin: 50px;
+  }
+  
+  .main-cont > div{
+    font-weight: bolder;
+    margin: 40px;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-shadow: black;
+  }
+  .main-4 {
+    text-align: right;
+    margin-left: 20%;
+   
+  }
+  .main-2 {
+    text-align: right;
+    margin-left: 20%;
+  }
+  
+  .bubble-1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #D09CFA;
+    border-radius: 20%;
+    transform: translate(20%, 0%);
+  }
+  
+  .bubble-2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #A555EC;
+    border-radius: 30%;
+    transform: translate(200%, 40%);
+    z-index: -1;
+  }
+  
+  .bubble-3 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background:#F3CCFF ;
+    border-radius: 30%;
+    transform: translate(30%, -70%);
+    z-index: -1;
+  }
+  
+  .main-btm {
+    margin: 10px;
+  }
+  
+  footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color:#D09CFA ;
+    color: black;
+    font-family: Arial;
+    font-size: 1.2em;
+    border-radius: 20px 20px 20px 20px;
+    text-shadow: #FEFF86;
+  }
+  
+  footer > div {
+    margin: 25px;
+  }
